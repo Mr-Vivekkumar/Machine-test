@@ -14,12 +14,6 @@ const BenefitSelection = () => {
   const [walletAmount, setWalletAmount] = useState(initialWalletAmount);
   const navigate = useNavigate();
 
-  const planColors = {
-    Health: "green",
-    Life: "blue",
-    Accident: "yellow",
-  };
-
   const selectBenefit = (plan, benefitIndex) => {
     const updatedSelectedBenefits = { ...selectedBenefits };
     updatedSelectedBenefits[plan] = benefitIndex;
