@@ -77,7 +77,7 @@ const BenefitSelection = () => {
                     key={index}
                     className={`benefit-tile ${
                       selectedBenefits[plan] === index
-                        ? "selected" + ` ${benefit.c}`
+                        ? "selected " + benefit.c
                         : ""
                     }`}
                     onClick={() => selectBenefit(plan, index)}
