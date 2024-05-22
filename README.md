@@ -16,8 +16,3 @@ This project is a flexible benefits solution that allows users to select benefit
 - Node.js (version 14 or higher recommended)
 - npm (Node package manager)
 
-### Instructions
-
-1. **Clone the repository from GitHub using the command:**
-   ```sh
-   git clone [GitHub Repo URL]
