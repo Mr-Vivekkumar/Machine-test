@@ -58,6 +58,12 @@ const BenefitSelection = () => {
         state: { selectedBenefits },
       });
     }
+    console.log("Selected Benefits:", selectedBenefits);
+    Object.entries(selectedBenefits).forEach(([plan, index]) => {
+      console.log(plan + ":", index);
+      console.log(plans[plan][index]);
+    });
+    console.log("Total Amount:", calculateTotalAmount(selectedBenefits));
   };
 
   return (
@@ -82,9 +88,7 @@ const BenefitSelection = () => {
                     }`}
                     onClick={() => selectBenefit(plan, index)}
                   >
-                    <div className="amount-box">
-                      {benefit.points * benefit.multiplier}
-                    </div>
+                    <div className="amount-box">{benefit.points}</div>
                     <p>{benefit.name}</p>
                     <input
                       type="checkbox"

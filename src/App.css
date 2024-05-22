@@ -61,6 +61,7 @@ h1 {
 
 .benefit-tile.selected {
   border-color: blue;
+  background: lightblue;
 }
 .h.selected {
   background: linear-gradient(360deg, green, white);
