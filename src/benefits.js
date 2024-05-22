@@ -1,0 +1,92 @@
+export const plans = {
+  Health: [
+    {
+      name: "Benefit 1",
+      points: 100,
+      multiplier: 1,
+      description: "Details",
+      c: "h",
+    },
+    {
+      name: "Benefit 2",
+      points: 200,
+      multiplier: 2,
+      description: "Details",
+      c: "h",
+    },
+    {
+      name: "Benefit 3",
+      points: 300,
+      multiplier: 3,
+      description: "Details",
+      c: "h",
+    },
+    {
+      name: "Benefit 4",
+      points: 400,
+      multiplier: 4,
+      description: "Details",
+      c: "h",
+    },
+  ],
+  Life: [
+    {
+      name: "Benefit 1",
+      points: 300,
+      multiplier: 0.5,
+      description: "Details",
+      c: "l",
+    },
+    {
+      name: "Benefit 2",
+      points: 400,
+      multiplier: 1,
+      description: "Details",
+      c: "l",
+    },
+    {
+      name: "Benefit 3",
+      points: 450,
+      multiplier: 1,
+      description: "Details",
+      c: "l",
+    },
+    {
+      name: "Benefit 4",
+      points: 600,
+      multiplier: 1,
+      description: "Details",
+      c: "l",
+    },
+  ],
+  Accident: [
+    {
+      name: "Benefit 1",
+      points: 100,
+      multiplier: 1,
+      description: "Details",
+      c: "a",
+    },
+    {
+      name: "Benefit 2",
+      points: 250,
+      multiplier: 1,
+      description: "Details",
+      c: "a",
+    },
+    {
+      name: "Benefit 3",
+      points: 600,
+      multiplier: 1,
+      description: "Details",
+      c: "a",
+    },
+    {
+      name: "Benefit 4",
+      points: 750,
+      multiplier: 1,
+      description: "Details",
+      c: "a",
+    },
+  ],
+};
